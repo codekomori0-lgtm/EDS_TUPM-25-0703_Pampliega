@@ -1,5 +1,11 @@
+#=====================================
+# LIBRARIES NEEDED FOR THIS PROJECT
+#=====================================
+
 numpy 
 pandas 
 matplotlib 
 seaborn 
 scipy 
+
+# Run this command on the terminal to install all necessary libraries: pip install -r requirements.txt

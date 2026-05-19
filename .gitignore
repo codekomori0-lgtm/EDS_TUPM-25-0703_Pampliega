@@ -1,36 +1,20 @@
-# ==========================================
-# 1. PROJECT SPECIFIC DIRECTORIES
-# ==========================================
-
-# Ignore the heavy telemetry datasets (raw and cleaned)
-# We track the folder itself (if empty), but not the CSVs inside it
+# --- Project-Specific Directories ---
+outputs/
 data/*.csv
 
-# ==========================================
-# 2. PYTHON VIRTUAL ENVIRONMENTS & CACHE
-# ==========================================
-
-# Virtual environment folders
+# --- Python Environments & Cache ---
 venv/
 .venv/
 env/
-
-# Python compiled cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-# ==========================================
-# 3. OS & IDE SYSTEM FILES
-# ==========================================
-
-# macOS
+# --- OS System Files ---
 .DS_Store
-
-# Windows
 Thumbs.db
 
-# VS Code / PyCharm settings
+# --- IDE Configurations ---
 .vscode/
 .idea/
 *.swp
