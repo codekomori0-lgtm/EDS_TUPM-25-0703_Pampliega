@@ -1,12 +1,36 @@
-.venv
+# ==========================================
+# 1. PROJECT SPECIFIC DIRECTORIES
+# ==========================================
+
+# Ignore the heavy telemetry datasets (raw and cleaned)
+# We track the folder itself (if empty), but not the CSVs inside it
+data/*.csv
+
+# ==========================================
+# 2. PYTHON VIRTUAL ENVIRONMENTS & CACHE
+# ==========================================
+
+# Virtual environment folders
+venv/
+.venv/
+env/
+
+# Python compiled cache
 __pycache__/
 *.py[cod]
 *$py.class
-venv/
-env/
-.env
-.venv
-.vscode/
-.ipynb_checkpoints
+
+# ==========================================
+# 3. OS & IDE SYSTEM FILES
+# ==========================================
+
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
+
+# VS Code / PyCharm settings
+.vscode/
+.idea/
+*.swp
